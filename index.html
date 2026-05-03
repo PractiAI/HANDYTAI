@@ -14,6 +14,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: 'Assistant', sans-serif;
             overflow-x: hidden;
@@ -89,11 +93,11 @@
     <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 transition-all shadow-sm">
         <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
             <div class="flex items-center gap-4">
-                <div class="w-[140px] md:w-[160px] flex items-center justify-center">
+                <div class="w-[120px] md:w-[160px] flex items-center justify-center">
                     <img src="https://files.cdn-files-a.com/uploads/9287380/400_filter_nobg_67641e43ebf52.png" alt="הנדית HANDY'T" class="w-full object-contain" />
                 </div>
             </div>
-            <a href="#register" class="hidden md:flex items-center gap-2 bg-pink-50 hover:bg-pink-100 border border-pink-200 px-6 py-2.5 rounded-full text-sm font-bold transition-all text-pink-600 shadow-sm">
+            <a href="#pricing" class="hidden md:flex items-center gap-2 bg-pink-50 hover:bg-pink-100 border border-pink-200 px-6 py-2.5 rounded-full text-sm font-bold transition-all text-pink-600 shadow-sm">
                 אני רוצה להיכנס לעולם ה-AI
             </a>
         </div>
@@ -103,7 +107,7 @@
     <section class="relative pt-32 pb-16 md:pt-48 md:pb-20 px-6 z-10">
         <div class="max-w-5xl mx-auto text-center reveal-on-scroll">
             
-            <div class="w-[200px] md:w-[280px] mx-auto mb-8">
+            <div class="w-[180px] md:w-[280px] mx-auto mb-8">
                 <img src="https://files.cdn-files-a.com/uploads/9287380/400_filter_nobg_67641e43ebf52.png" alt="הנדית HANDY'T" class="w-full object-contain drop-shadow-sm" />
             </div>
             
@@ -132,7 +136,7 @@
                 </div>
             </div>
 
-            <a href="#register" class="btn-primary inline-flex items-center justify-center gap-3 text-white text-xl md:text-2xl font-black py-5 px-10 rounded-2xl w-full sm:w-auto">
+            <a href="#pricing" class="btn-primary inline-flex items-center justify-center gap-3 text-white text-xl md:text-2xl font-black py-4 px-8 md:py-5 md:px-10 rounded-2xl w-full sm:w-auto">
                 אני רוצה להיכנס לעולם ה-AI
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-7 md:h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
             </a>
@@ -145,10 +149,10 @@
     <!-- 2. WHAT WILL YOU KNOW (RESULTS) -->
     <section class="py-16 md:py-24 px-6 relative z-10 bg-slate-50/80 backdrop-blur-sm border-t border-slate-100">
         <div class="max-w-5xl mx-auto reveal-on-scroll text-center">
-            <h2 class="text-3xl md:text-5xl font-black mb-12 text-slate-900">מה תדעי לעשות אחרי הסדנה?</h2>
+            <h2 class="text-3xl md:text-5xl font-black mb-10 md:mb-12 text-slate-900">מה תדעי לעשות אחרי הסדנה?</h2>
             
-            <div class="grid sm:grid-cols-2 gap-6 mb-12 text-right">
-                <div class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-slate-100 flex items-start gap-4">
+            <div class="grid sm:grid-cols-2 gap-4 md:gap-6 mb-12 text-right">
+                <div class="bg-white p-5 md:p-8 rounded-3xl shadow-sm border border-slate-100 flex items-start gap-4">
                     <div class="bg-pink-100 text-pink-600 p-3 rounded-2xl shrink-0">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
                     </div>
@@ -157,7 +161,7 @@
                     </div>
                 </div>
                 
-                <div class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-slate-100 flex items-start gap-4">
+                <div class="bg-white p-5 md:p-8 rounded-3xl shadow-sm border border-slate-100 flex items-start gap-4">
                     <div class="bg-orange-100 text-orange-600 p-3 rounded-2xl shrink-0">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
                     </div>
@@ -166,7 +170,7 @@
                     </div>
                 </div>
 
-                <div class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-slate-100 flex items-start gap-4">
+                <div class="bg-white p-5 md:p-8 rounded-3xl shadow-sm border border-slate-100 flex items-start gap-4">
                     <div class="bg-pink-100 text-pink-600 p-3 rounded-2xl shrink-0">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
                     </div>
@@ -175,7 +179,7 @@
                     </div>
                 </div>
 
-                <div class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-slate-100 flex items-start gap-4">
+                <div class="bg-white p-5 md:p-8 rounded-3xl shadow-sm border border-slate-100 flex items-start gap-4">
                     <div class="bg-orange-100 text-orange-600 p-3 rounded-2xl shrink-0">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                     </div>
@@ -185,8 +189,8 @@
                 </div>
             </div>
 
-            <div class="inline-block bg-pink-50 border border-pink-200 px-8 py-4 rounded-2xl">
-                <p class="text-xl md:text-2xl font-black text-pink-900">
+            <div class="inline-block bg-pink-50 border border-pink-200 px-6 py-4 md:px-8 md:py-4 rounded-2xl">
+                <p class="text-lg md:text-2xl font-black text-pink-900">
                     המטרה היא לא "להכיר AI".<br class="md:hidden"/>
                     המטרה היא שתתחילי <span class="text-pink-600">להשתמש בו באמת.</span>
                 </p>
@@ -197,31 +201,31 @@
     <!-- 3. THE PROBLEM -->
     <section class="py-16 md:py-24 px-6 relative z-10">
         <div class="max-w-5xl mx-auto text-center reveal-on-scroll">
-            <h2 class="text-3xl md:text-5xl font-black mb-12 text-slate-900 leading-tight">
+            <h2 class="text-3xl md:text-5xl font-black mb-10 md:mb-12 text-slate-900 leading-tight">
                 הבעיה היא לא שאין לך גישה ל-AI.<br/>
                 <span class="text-slate-500">הבעיה היא שאף אחד לא הראה לך איך להשתמש בו נכון.</span>
             </h2>
             
-            <div class="grid sm:grid-cols-3 gap-6 mb-12 text-right">
+            <div class="grid sm:grid-cols-3 gap-5 md:gap-6 mb-12 text-right">
                 <div class="glass-card p-6 md:p-8 rounded-3xl relative overflow-hidden group">
-                    <div class="w-12 h-12 bg-pink-50 rounded-2xl flex items-center justify-center mb-6 shadow-sm border border-pink-100">
+                    <div class="w-12 h-12 bg-pink-50 rounded-2xl flex items-center justify-center mb-5 md:mb-6 shadow-sm border border-pink-100">
                         <span class="text-2xl">🤷‍♀️</span>
                     </div>
-                    <h3 class="font-bold text-xl md:text-2xl mb-3 text-slate-900">פותחת ChatGPT — ונתקעת</h3>
+                    <h3 class="font-bold text-xl md:text-2xl mb-2 md:mb-3 text-slate-900">פותחת ChatGPT — ונתקעת</h3>
                     <p class="text-slate-600 leading-relaxed text-sm md:text-base">את יודעת שהוא יכול לעזור, אבל לא ברור מה לכתוב, איך לבקש ואיך לגרום לו לתת תוצאה שבאמת שימושית.</p>
                 </div>
                 <div class="glass-card p-6 md:p-8 rounded-3xl relative overflow-hidden group">
-                    <div class="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 shadow-sm border border-orange-100">
+                    <div class="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center mb-5 md:mb-6 shadow-sm border border-orange-100">
                         <span class="text-2xl">🤯</span>
                     </div>
-                    <h3 class="font-bold text-xl md:text-2xl mb-3 text-slate-900">יותר מדי כלים, פחות מדי בהירות</h3>
+                    <h3 class="font-bold text-xl md:text-2xl mb-2 md:mb-3 text-slate-900">יותר מדי כלים, פחות מדי בהירות</h3>
                     <p class="text-slate-600 leading-relaxed text-sm md:text-base">כל יום יש כלי חדש, סרטון חדש והבטחה חדשה. בסוף זה יוצר בלבול ולא התקדמות.</p>
                 </div>
                 <div class="glass-card p-6 md:p-8 rounded-3xl relative overflow-hidden group">
-                    <div class="w-12 h-12 bg-pink-50 rounded-2xl flex items-center justify-center mb-6 shadow-sm border border-pink-100">
+                    <div class="w-12 h-12 bg-pink-50 rounded-2xl flex items-center justify-center mb-5 md:mb-6 shadow-sm border border-pink-100">
                         <span class="text-2xl">⏳</span>
                     </div>
-                    <h3 class="font-bold text-xl md:text-2xl mb-3 text-slate-900">הזמן שלך ממשיך להישרף</h3>
+                    <h3 class="font-bold text-xl md:text-2xl mb-2 md:mb-3 text-slate-900">הזמן שלך ממשיך להישרף</h3>
                     <p class="text-slate-600 leading-relaxed text-sm md:text-base">כתיבה, סיכומים, רעיונות, תוכן, למידה — דברים שיכולים לקחת חצי מהזמן אם יודעים לעבוד נכון עם AI.</p>
                 </div>
             </div>
@@ -234,13 +238,13 @@
     </section>
 
     <!-- 4. WHO IS IT FOR -->
-    <section class="py-16 md:py-24 px-6 max-w-4xl mx-auto z-10 relative bg-pink-50/30 rounded-[3rem] border border-pink-100 mb-16">
-        <div class="reveal-on-scroll px-4 md:px-10">
+    <section class="py-16 md:py-24 px-6 max-w-4xl mx-auto z-10 relative bg-pink-50/30 rounded-[2.5rem] md:rounded-[3rem] border border-pink-100 mb-16">
+        <div class="reveal-on-scroll px-2 md:px-10">
             <h2 class="text-3xl md:text-5xl font-black mb-8 leading-tight text-slate-900">
-                זה בשבילך אם את יודעת ש-AI חשוב — <span class="text-gradient">אבל עדיין לא באמת נכנסת לזה.</span>
+                זה בשבילך אם את יודעת ש-AI חשוב — <br class="hidden md:block" /><span class="text-gradient">אבל עדיין לא באמת נכנסת לזה.</span>
             </h2>
             
-            <ul class="space-y-4 mb-8 text-slate-700 text-lg">
+            <ul class="space-y-4 mb-8 text-slate-700 text-base md:text-lg">
                 <li class="flex items-start gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-orange-500 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
                     אם פתחת ChatGPT ולא ידעת מה לכתוב.
@@ -263,7 +267,7 @@
                 </li>
             </ul>
 
-            <div class="bg-white p-6 rounded-2xl border border-pink-200 shadow-sm">
+            <div class="bg-white p-5 md:p-6 rounded-2xl border border-pink-200 shadow-sm text-center md:text-right">
                 <p class="font-black text-xl text-slate-900">
                     לא צריך להיות "אשת טכנולוגיה".<br/>
                     <span class="text-pink-600">צריך רק ללמוד איך לדבר נכון עם הכלים האלה.</span>
@@ -274,25 +278,25 @@
 
     <!-- 5. SYLLABUS / MODULES -->
     <section class="py-16 md:py-24 px-6 max-w-6xl mx-auto z-10 relative">
-        <div class="text-center mb-16 md:mb-20 reveal-on-scroll">
-            <h2 class="text-4xl md:text-5xl font-black mb-4 text-slate-900">מה קורה בתוך <span class="text-gradient">2 המפגשים?</span></h2>
+        <div class="text-center mb-12 md:mb-20 reveal-on-scroll">
+            <h2 class="text-3xl md:text-5xl font-black mb-4 text-slate-900">מה קורה בתוך <span class="text-gradient">2 המפגשים?</span></h2>
         </div>
 
-        <div class="grid lg:grid-cols-2 gap-8 md:gap-10">
+        <div class="grid lg:grid-cols-2 gap-6 md:gap-10">
             <!-- Module 1 -->
-            <div class="glass-card rounded-[2rem] p-8 md:p-10 relative overflow-hidden reveal-on-scroll">
-                <div class="absolute top-0 right-0 w-32 h-32 bg-pink-100 rounded-bl-full -z-10 opacity-50"></div>
+            <div class="glass-card rounded-[2rem] p-6 md:p-10 relative overflow-hidden reveal-on-scroll">
+                <div class="absolute top-0 right-0 w-24 md:w-32 h-24 md:h-32 bg-pink-100 rounded-bl-full -z-10 opacity-50"></div>
                 
                 <h3 class="text-2xl md:text-3xl font-black mb-4 leading-tight text-slate-900">
-                    <span class="text-pink-600 text-lg block mb-2">מפגש 1</span>
+                    <span class="text-pink-600 text-base md:text-lg block mb-1 md:mb-2">מפגש 1</span>
                     איך להפוך עומס של מידע לתשובות ברורות
                 </h3>
                 
-                <p class="text-slate-600 mb-6 font-light text-base md:text-lg pb-6 border-b border-slate-100">
+                <p class="text-slate-600 mb-5 md:mb-6 font-light text-base md:text-lg pb-5 md:pb-6 border-b border-slate-100">
                     במפגש הזה תלמדי להשתמש ב-NotebookLM כדי לעבוד עם מסמכים, מאמרים, תמלולים, קבצים, קישורים ומידע ארוך — ולקבל ממנו סיכומים, תובנות ותוצרים שאפשר להשתמש בהם מיד.
                 </p>
                 
-                <ul class="space-y-3 mb-8 text-slate-700">
+                <ul class="space-y-3 mb-6 md:mb-8 text-slate-700 text-sm md:text-base">
                     <li class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-pink-500 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> איך מעלים מקורות מידע ומנהלים אותם בצורה מסודרת.</li>
                     <li class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-pink-500 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> איך שואלים שאלות חכמות על מסמכים ארוכים.</li>
                     <li class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-pink-500 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> איך מסכמים מידע מורכב בלי לקרוא הכול ידנית.</li>
@@ -300,25 +304,25 @@
                     <li class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-pink-500 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> איך להשתמש בזה ללמידה, עבודה, עסק ותוכן.</li>
                 </ul>
                 
-                <div class="bg-pink-50 border border-pink-100 p-4 rounded-xl text-pink-900 font-bold text-lg text-center">
+                <div class="bg-pink-50 border border-pink-100 p-4 rounded-xl text-pink-900 font-bold text-base md:text-lg text-center">
                     תוצאה: תפסיקי לטבוע במידע ותתחילי להוציא ממנו ערך.
                 </div>
             </div>
 
             <!-- Module 2 -->
-            <div class="glass-card rounded-[2rem] p-8 md:p-10 relative overflow-hidden reveal-on-scroll">
-                <div class="absolute top-0 right-0 w-32 h-32 bg-orange-100 rounded-bl-full -z-10 opacity-50"></div>
+            <div class="glass-card rounded-[2rem] p-6 md:p-10 relative overflow-hidden reveal-on-scroll">
+                <div class="absolute top-0 right-0 w-24 md:w-32 h-24 md:h-32 bg-orange-100 rounded-bl-full -z-10 opacity-50"></div>
                 
                 <h3 class="text-2xl md:text-3xl font-black mb-4 leading-tight text-slate-900">
-                    <span class="text-orange-500 text-lg block mb-2">מפגש 2</span>
+                    <span class="text-orange-500 text-base md:text-lg block mb-1 md:mb-2">מפגש 2</span>
                     איך להפוך את ChatGPT לעוזר אישי שעובד בשבילך
                 </h3>
                 
-                <p class="text-slate-600 mb-6 font-light text-base md:text-lg pb-6 border-b border-slate-100">
+                <p class="text-slate-600 mb-5 md:mb-6 font-light text-base md:text-lg pb-5 md:pb-6 border-b border-slate-100">
                     במפגש הזה תלמדי איך לדבר עם ChatGPT בצורה שמייצרת תוצאות טובות באמת — לא תשובות כלליות, לא טקסטים רובוטיים, אלא תוצרים שמתאימים לסגנון ולמטרות שלך.
                 </p>
                 
-                <ul class="space-y-3 mb-8 text-slate-700">
+                <ul class="space-y-3 mb-6 md:mb-8 text-slate-700 text-sm md:text-base">
                     <li class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-500 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> איך כותבים פרומפט פשוט שמביא תוצאה טובה.</li>
                     <li class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-500 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> איך גורמים ל-ChatGPT להבין את הסגנון שלך.</li>
                     <li class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-500 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> איך משתמשים בו לכתיבת פוסטים, רעיונות ותוכן.</li>
@@ -326,7 +330,7 @@
                     <li class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-500 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> איך בונים איתו תהליך עבודה יומיומי שחוסך זמן.</li>
                 </ul>
                 
-                <div class="bg-orange-50 border border-orange-100 p-4 rounded-xl text-orange-900 font-bold text-lg text-center">
+                <div class="bg-orange-50 border border-orange-100 p-4 rounded-xl text-orange-900 font-bold text-base md:text-lg text-center">
                     תוצאה: תדעי לפתוח את הצ׳אט ולהתקדם — במקום לבהות במסך.
                 </div>
             </div>
@@ -336,59 +340,59 @@
     <!-- 6. VALUE STACK (Hormozi Style) -->
     <section class="py-16 md:py-24 px-6 relative z-10 bg-slate-50/80 backdrop-blur-sm border-y border-slate-100">
         <div class="max-w-4xl mx-auto reveal-on-scroll">
-            <h2 class="text-3xl md:text-5xl font-black mb-12 text-center text-slate-900">מה את מקבלת בפועל?</h2>
+            <h2 class="text-3xl md:text-5xl font-black mb-10 md:mb-12 text-center text-slate-900">מה את מקבלת בפועל?</h2>
             
-            <div class="space-y-4 md:space-y-6 mb-12">
-                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
-                    <div class="bg-pink-100 text-pink-600 p-3 rounded-full shrink-0 font-black text-xl w-12 h-12 flex items-center justify-center">1</div>
+            <div class="space-y-4 md:space-y-6 mb-10 md:mb-12">
+                <div class="bg-white p-5 md:p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
+                    <div class="bg-pink-100 text-pink-600 rounded-full shrink-0 font-black text-xl w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">1</div>
                     <div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-1">שני מפגשי זום חיים</h4>
-                        <p class="text-slate-600">למידה פרקטית, פשוטה וברורה, עם הדגמות בזמן אמת.</p>
+                        <h4 class="text-lg md:text-xl font-bold text-slate-900 mb-1">שני מפגשי זום חיים</h4>
+                        <p class="text-slate-600 text-sm md:text-base">למידה פרקטית, פשוטה וברורה, עם הדגמות בזמן אמת.</p>
                     </div>
                 </div>
 
-                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
-                    <div class="bg-orange-100 text-orange-600 p-3 rounded-full shrink-0 font-black text-xl w-12 h-12 flex items-center justify-center">2</div>
+                <div class="bg-white p-5 md:p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
+                    <div class="bg-orange-100 text-orange-600 rounded-full shrink-0 font-black text-xl w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">2</div>
                     <div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-1">הקלטות המפגשים</h4>
-                        <p class="text-slate-600">כדי שתוכלי לחזור, לעצור, לתרגל ולהתקדם בקצב שלך.</p>
+                        <h4 class="text-lg md:text-xl font-bold text-slate-900 mb-1">הקלטות המפגשים</h4>
+                        <p class="text-slate-600 text-sm md:text-base">כדי שתוכלי לחזור, לעצור, לתרגל ולהתקדם בקצב שלך.</p>
                     </div>
                 </div>
 
-                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
-                    <div class="bg-pink-100 text-pink-600 p-3 rounded-full shrink-0 font-black text-xl w-12 h-12 flex items-center justify-center">3</div>
+                <div class="bg-white p-5 md:p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
+                    <div class="bg-pink-100 text-pink-600 rounded-full shrink-0 font-black text-xl w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">3</div>
                     <div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-1">דוגמאות שימוש מהחיים האמיתיים</h4>
-                        <p class="text-slate-600">לא דוגמאות של הייטקיסטים. דוגמאות של תוכן, עסק, בית, עבודה, למידה וניהול יומיומי.</p>
+                        <h4 class="text-lg md:text-xl font-bold text-slate-900 mb-1">דוגמאות שימוש מהחיים האמיתיים</h4>
+                        <p class="text-slate-600 text-sm md:text-base">לא דוגמאות של הייטקיסטים. דוגמאות של תוכן, עסק, בית, עבודה, למידה וניהול יומיומי.</p>
                     </div>
                 </div>
 
-                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
-                    <div class="bg-orange-100 text-orange-600 p-3 rounded-full shrink-0 font-black text-xl w-12 h-12 flex items-center justify-center">4</div>
+                <div class="bg-white p-5 md:p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
+                    <div class="bg-orange-100 text-orange-600 rounded-full shrink-0 font-black text-xl w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">4</div>
                     <div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-1">תבניות חשיבה ופרומפטים</h4>
-                        <p class="text-slate-600">כדי שתדעי איך להתחיל גם אחרי שהמפגש נגמר.</p>
+                        <h4 class="text-lg md:text-xl font-bold text-slate-900 mb-1">תבניות חשיבה ופרומפטים</h4>
+                        <p class="text-slate-600 text-sm md:text-base">כדי שתדעי איך להתחיל גם אחרי שהמפגש נגמר.</p>
                     </div>
                 </div>
 
-                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
-                    <div class="bg-pink-100 text-pink-600 p-3 rounded-full shrink-0 font-black text-xl w-12 h-12 flex items-center justify-center">5</div>
+                <div class="bg-white p-5 md:p-6 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-4 items-start md:items-center">
+                    <div class="bg-pink-100 text-pink-600 rounded-full shrink-0 font-black text-xl w-10 h-10 md:w-12 md:h-12 flex items-center justify-center">5</div>
                     <div>
-                        <h4 class="text-xl font-bold text-slate-900 mb-1">שיטה פשוטה לעבודה עם AI</h4>
-                        <p class="text-slate-600">מה מעלים, מה לא מעלים, איך מבקשים, איך משפרים ואיך מגיעים לתוצאה טובה.</p>
+                        <h4 class="text-lg md:text-xl font-bold text-slate-900 mb-1">שיטה פשוטה לעבודה עם AI</h4>
+                        <p class="text-slate-600 text-sm md:text-base">מה מעלים, מה לא מעלים, איך מבקשים, איך משפרים ואיך מגיעים לתוצאה טובה.</p>
                     </div>
                 </div>
             </div>
 
             <div class="text-center bg-gradient-to-r from-pink-50 to-orange-50 border border-pink-100 p-6 md:p-8 rounded-2xl">
-                <p class="text-xl md:text-2xl font-bold text-slate-900">
+                <p class="text-lg md:text-2xl font-bold text-slate-900">
                     במקום לשלם בזמן, בלבול וניסוי וטעייה —<br/>
                     <span class="text-pink-600">את מקבלת קיצור דרך ברור.</span>
                 </p>
             </div>
             
-            <div class="mt-10 text-center">
-                <a href="#register" class="btn-primary inline-flex items-center justify-center gap-3 text-white text-xl font-bold py-4 px-10 rounded-2xl shadow-md">
+            <div class="mt-8 md:mt-10 text-center">
+                <a href="#pricing" class="btn-primary inline-flex items-center justify-center gap-3 text-white text-lg md:text-xl font-bold py-4 px-8 md:px-10 rounded-2xl shadow-md w-full sm:w-auto">
                     אני רוצה את קיצור הדרך הזה
                 </a>
             </div>
@@ -400,22 +404,22 @@
         <div class="max-w-6xl mx-auto reveal-on-scroll">
             
             <!-- Karin's Section -->
-            <div class="grid md:grid-cols-5 gap-10 md:gap-16 items-center mb-20 bg-white p-8 md:p-12 rounded-[2.5rem] border border-slate-100 shadow-sm">
+            <div class="grid md:grid-cols-5 gap-8 md:gap-16 items-center mb-16 md:mb-20 bg-white p-6 md:p-12 rounded-[2rem] md:rounded-[2.5rem] border border-slate-100 shadow-sm">
                 <div class="md:col-span-2 relative">
-                    <img src="https://karin-handyt.co.il/wp-content/uploads/2025/06/%D7%A2%D7%95%D7%AA%D7%A7-%D7%A9%D7%9C-%D7%A2%D7%95%D7%AA%D7%A7-%D7%A9%D7%9C-DSC_4018.webp" alt="קרין קקון - הנדית" class="w-full h-full object-cover rounded-[2rem]" />
+                    <img src="https://karin-handyt.co.il/wp-content/uploads/2025/06/%D7%A2%D7%95%D7%AA%D7%A7-%D7%A9%D7%9C-%D7%A2%D7%95%D7%AA%D7%A7-%D7%A9%D7%9C-DSC_4018.webp" alt="קרין קקון - הנדית" class="w-full h-full object-cover rounded-3xl md:rounded-[2rem]" />
                 </div>
                 <div class="md:col-span-3">
-                    <h2 class="text-3xl md:text-4xl font-black mb-6 text-slate-900">ולמה דווקא דרך הנדית?</h2>
-                    <p class="text-lg md:text-xl text-slate-600 mb-6 leading-relaxed">
+                    <h2 class="text-3xl md:text-4xl font-black mb-4 md:mb-6 text-slate-900">ולמה דווקא דרך הנדית?</h2>
+                    <p class="text-base md:text-xl text-slate-600 mb-6 leading-relaxed">
                         כי בדיוק כמו שקרין הפכה עבודות בית, כלים ותיקונים ממשהו שמרגיש מפחיד למשהו שכל אחת יכולה ללמוד — ככה אנחנו רוצות לעשות גם עם AI.
                     </p>
-                    <ul class="space-y-2 mb-6 text-slate-700 font-medium text-lg">
+                    <ul class="space-y-2 mb-6 text-slate-700 font-medium text-base md:text-lg">
                         <li>✔️ בלי התנשאות.</li>
                         <li>✔️ בלי להפוך את זה למסובך.</li>
                         <li>✔️ בלי לגרום לך להרגיש שאת "לא מהתחום".</li>
                     </ul>
-                    <div class="bg-pink-50 p-5 rounded-xl border border-pink-100">
-                        <p class="font-bold text-xl text-pink-900">
+                    <div class="bg-pink-50 p-4 md:p-5 rounded-xl border border-pink-100 text-center md:text-right">
+                        <p class="font-bold text-lg md:text-xl text-pink-900">
                             אם אפשר ללמוד לקדוח, למדוד, לתקן ולבנות — אפשר גם ללמוד לעבוד עם AI.
                         </p>
                     </div>
@@ -423,25 +427,25 @@
             </div>
 
             <!-- Tal's Section -->
-            <div class="grid md:grid-cols-5 gap-10 md:gap-16 items-center bg-white p-8 md:p-12 rounded-[2.5rem] border border-slate-100 shadow-sm">
+            <div class="grid md:grid-cols-5 gap-8 md:gap-16 items-center bg-white p-6 md:p-12 rounded-[2rem] md:rounded-[2.5rem] border border-slate-100 shadow-sm">
                 <div class="md:col-span-3 order-2 md:order-1">
                     <h2 class="text-3xl md:text-4xl font-black mb-4 text-slate-900">מי מלמד אותך להשתמש בזה בלי להסתבך?</h2>
                     
-                    <p class="text-base md:text-lg text-slate-600 mb-4 leading-relaxed">
+                    <p class="text-sm md:text-lg text-slate-600 mb-4 leading-relaxed">
                         <strong class="text-slate-800">טל חקוקי</strong> הוא מומחה להטמעת בינה מלאכותית בארגונים, מנהלים וצוותים, ומנהל תחום GenAI במרכז כנרת לחדשנות.
                     </p>
-                    <p class="text-base md:text-lg text-slate-600 mb-6 leading-relaxed">
+                    <p class="text-sm md:text-lg text-slate-600 mb-6 leading-relaxed">
                         בשנים האחרונות הוא הכשיר אלפי משתתפים ועזר לארגונים, עסקים ואנשים פרטיים להבין איך להפוך את AI מכלי מבלבל לכלי עבודה פרקטי שמייצר תוצאות.<br/><br/>
                         <strong class="text-slate-800">אבל כאן המטרה היא אחרת:</strong><br/>
                         לא ללמד אותך "AI של ארגונים". אלא להראות לך איך אישה עסוקה, עצמאית, שכירה, יוצרת תוכן או בעלת עסק יכולה להתחיל להשתמש בזה בצורה פשוטה כבר עכשיו.
                     </p>
-                    <blockquote class="border-r-4 border-orange-500 pr-5 text-slate-800 font-bold text-lg md:text-xl bg-orange-50 p-5 rounded-l-xl italic">
+                    <blockquote class="border-r-4 border-orange-500 pr-4 md:pr-5 text-slate-800 font-bold text-base md:text-xl bg-orange-50 p-4 md:p-5 rounded-l-xl italic">
                         "אני לא רוצה שתצאי מהסדנה ותחשבי ש-AI זה מדהים. אני רוצה שתצאי, תפתחי את המחשב, ותדעי בדיוק מה לעשות."
                     </blockquote>
                 </div>
-                <div class="md:col-span-2 relative order-1 md:order-2">
-                    <img src="https://res.cloudinary.com/dhzuwoech/image/upload/v1770577527/unnamed_hmkldf.jpg" alt="טל חקוקי" class="w-full h-full object-cover rounded-[2rem]" />
-                    <div class="absolute -bottom-4 -right-4 bg-orange-500 text-white px-5 py-2 rounded-xl font-bold shadow-md transform rotate-3 text-sm md:text-base">
+                <div class="md:col-span-2 relative order-1 md:order-2 max-w-[280px] mx-auto md:max-w-none w-full">
+                    <img src="https://res.cloudinary.com/dhzuwoech/image/upload/v1770577527/unnamed_hmkldf.jpg" alt="טל חקוקי" class="w-full aspect-square md:aspect-[4/5] object-cover rounded-[2rem]" />
+                    <div class="absolute -bottom-4 -left-2 md:-right-4 md:left-auto bg-orange-500 text-white px-4 py-2 md:px-5 md:py-2 rounded-xl font-bold shadow-md transform -rotate-3 md:rotate-3 text-sm md:text-base whitespace-nowrap">
                         המרצה (ובעלי ☺️)
                     </div>
                 </div>
@@ -451,46 +455,52 @@
     </section>
 
     <!-- 8. PRICING (Pay What You Can) -->
-    <section class="py-16 md:py-24 px-6 max-w-5xl mx-auto z-10 relative reveal-on-scroll">
+    <section id="pricing" class="py-16 md:py-24 px-4 sm:px-6 max-w-5xl mx-auto z-10 relative reveal-on-scroll">
         <div class="rounded-[2.5rem] p-1 bg-gradient-to-br from-pink-400 via-orange-400 to-pink-500 shadow-xl">
-            <div class="bg-white rounded-[2.4rem] p-8 md:p-16 text-center">
-                <h2 class="text-3xl md:text-5xl font-black mb-10 text-slate-900">אנחנו רוצות שכמה שיותר נשים ייכנסו לעולם הזה.</h2>
+            <div class="bg-white rounded-[2.4rem] p-6 sm:p-8 md:p-16 text-center overflow-hidden">
+                <h2 class="text-3xl md:text-5xl font-black mb-8 md:mb-10 text-slate-900">אנחנו רוצות שכמה שיותר נשים ייכנסו לעולם הזה.</h2>
 
                 <!-- NEW BOLD PRICING DISPLAY -->
-                <div class="mb-12 text-center flex flex-col items-center">
-                    <p class="text-slate-600 text-xl md:text-2xl font-bold mb-3">שווי ההשתתפות ב-2 המפגשים:</p>
-                    <div class="bg-white border-2 border-pink-100 rounded-3xl py-4 px-10 shadow-lg mb-6 relative">
+                <div class="mb-10 md:mb-12 text-center flex flex-col items-center">
+                    <p class="text-slate-600 text-lg sm:text-xl md:text-2xl font-bold mb-3">שווי ההשתתפות ב-2 המפגשים:</p>
+                    <div class="bg-white border-2 border-pink-100 rounded-[2rem] py-4 px-8 sm:px-10 shadow-lg mb-6 relative">
                         <div class="absolute -top-3 -right-3 text-pink-500">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 sm:w-8 sm:h-8" viewBox="0 0 24 24" fill="currentColor"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
                         </div>
-                        <p class="text-6xl md:text-7xl font-black text-slate-900 tracking-tight">450 <span class="text-3xl md:text-4xl">ש״ח</span></p>
+                        <p class="text-5xl sm:text-6xl md:text-7xl font-black text-slate-900 tracking-tight">450 <span class="text-2xl sm:text-3xl md:text-4xl">ש״ח</span></p>
                     </div>
-                    <p class="text-xl md:text-2xl text-pink-600 font-bold">אבל לעוקבות של הנדית החלטנו על מודל אחר:</p>
+                    <p class="text-lg sm:text-xl md:text-2xl text-pink-600 font-bold">אבל לעוקבות של הנדית החלטנו על מודל אחר:</p>
                 </div>
 
-                <div class="inline-block relative mb-10 transform -rotate-2">
+                <div class="inline-block relative mb-10 transform -rotate-2 w-full sm:w-auto">
                     <div class="absolute inset-0 bg-pink-500 blur-xl opacity-20"></div>
-                    <div class="relative bg-gradient-to-r from-pink-500 to-orange-500 text-white text-4xl md:text-6xl font-black py-5 px-10 md:py-6 md:px-14 rounded-3xl shadow-lg border border-white/20 whitespace-nowrap">
+                    <div class="relative bg-gradient-to-r from-pink-500 to-orange-500 text-white text-3xl sm:text-4xl md:text-6xl font-black py-4 px-6 sm:px-10 md:py-6 md:px-14 rounded-2xl md:rounded-3xl shadow-lg border border-white/20">
                         שלמי כפי יכולתך
                     </div>
                 </div>
 
-                <div class="flex flex-col sm:flex-row justify-center gap-4 md:gap-8 mb-10 text-lg font-bold text-slate-700">
+                <div class="flex flex-col sm:flex-row justify-center gap-3 md:gap-8 mb-8 md:mb-10 text-base md:text-lg font-bold text-slate-700">
                     <div class="bg-slate-50 px-6 py-3 rounded-xl border border-slate-100">בלי מחיר קבוע.</div>
                     <div class="bg-slate-50 px-6 py-3 rounded-xl border border-slate-100">בלי סכום מינימום.</div>
                     <div class="bg-slate-50 px-6 py-3 rounded-xl border border-slate-100">בלי חסם כניסה.</div>
                 </div>
 
-                <p class="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
+                <p class="text-base sm:text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
                     את בוחרת את הסכום שמתאים לך, לפי היכולת והרצון שלך.
                 </p>
 
-                <div class="bg-gradient-to-r from-pink-50 to-orange-50 p-6 md:p-8 rounded-2xl border border-pink-100 max-w-3xl mx-auto">
-                    <p class="text-xl md:text-2xl font-black text-slate-900 leading-relaxed">
+                <div class="bg-gradient-to-r from-pink-50 to-orange-50 p-6 md:p-8 rounded-2xl border border-pink-100 max-w-3xl mx-auto mb-10">
+                    <p class="text-lg sm:text-xl md:text-2xl font-black text-slate-900 leading-relaxed">
                         אנחנו סומכים על הקהילה.<br/>
                         <span class="text-pink-600 font-bold">ואנחנו רוצות שהידע הזה יהיה נגיש גם למי שעד היום הרגישה שזה לא בשבילה.</span>
                     </p>
                 </div>
+
+                <!-- DIRECT PAYMENT CTA BUTTON HERE (Under the price) -->
+                <a href="https://secure.cardcom.solutions/EA/EA5/HISNzM139kaCJLT3jGj6kg/PaymentSP" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center justify-center gap-3 text-white font-black text-xl md:text-2xl py-5 px-8 md:px-12 rounded-2xl shadow-lg hover:shadow-pink-500/30 transition-all transform hover:-translate-y-1 w-full md:w-auto">
+                    מעבר לעמוד התשלום המאובטח
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-7 md:h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                </a>
             </div>
         </div>
     </section>
@@ -498,17 +508,17 @@
     <!-- 9. WHY NOW? -->
     <section class="py-16 md:py-24 px-6 z-10 relative bg-slate-50/80 backdrop-blur-sm border-y border-slate-100">
         <div class="max-w-4xl mx-auto text-center reveal-on-scroll">
-            <h2 class="text-3xl md:text-5xl font-black mb-8 text-slate-900">למה לא לדחות את זה?</h2>
+            <h2 class="text-3xl md:text-5xl font-black mb-6 md:mb-8 text-slate-900">למה לא לדחות את זה?</h2>
             
-            <p class="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto text-right">
+            <p class="text-base md:text-xl text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto md:text-right">
                 כי AI כבר לא "משהו של העתיד".<br/>
                 הוא כבר כאן — בתוך העבודה, התוכן, הלמידה, העסק, הבית והיומיום.<br/><br/>
                 מי שלומדת להשתמש בו עכשיו, חוסכת זמן, יוצרת מהר יותר ומקבלת יתרון ברור.<br/>
                 מי שמחכה, מרגישה יותר ויותר מאחור.
             </p>
 
-            <div class="inline-block bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
-                <p class="text-2xl md:text-3xl font-black text-slate-900">
+            <div class="inline-block bg-white p-5 md:p-6 rounded-2xl shadow-sm border border-slate-100">
+                <p class="text-xl md:text-3xl font-black text-slate-900 leading-snug">
                     הפער לא נוצר בגלל כישרון.<br/>
                     <span class="text-orange-500">הוא נוצר בגלל שימוש.</span>
                 </p>
@@ -519,25 +529,25 @@
     <!-- 10. WHO IS IT NOT FOR -->
     <section class="py-16 md:py-24 px-6 z-10 relative">
         <div class="max-w-4xl mx-auto reveal-on-scroll">
-            <h2 class="text-3xl md:text-4xl font-black mb-10 text-center text-slate-900">למי זה לא מתאים?</h2>
+            <h2 class="text-3xl md:text-4xl font-black mb-8 md:mb-10 text-center text-slate-900">למי זה לא מתאים?</h2>
             
-            <div class="space-y-4 text-right">
-                <div class="flex items-start gap-4 glass-card p-5 rounded-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-slate-400 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                    <p class="text-slate-600 text-lg">אם את מחפשת קורס טכני עמוק למפתחים — זה לא זה.</p>
+            <div class="space-y-4 md:text-right">
+                <div class="flex items-start gap-3 md:gap-4 glass-card p-4 md:p-5 rounded-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 md:w-6 md:h-6 text-slate-400 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    <p class="text-slate-600 text-base md:text-lg">אם את מחפשת קורס טכני עמוק למפתחים — זה לא זה.</p>
                 </div>
-                <div class="flex items-start gap-4 glass-card p-5 rounded-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-slate-400 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                    <p class="text-slate-600 text-lg">אם את רוצה ללמוד עשרות כלים שונים בלי עומק — זה לא זה.</p>
+                <div class="flex items-start gap-3 md:gap-4 glass-card p-4 md:p-5 rounded-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 md:w-6 md:h-6 text-slate-400 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    <p class="text-slate-600 text-base md:text-lg">אם את רוצה ללמוד עשרות כלים שונים בלי עומק — זה לא זה.</p>
                 </div>
-                <div class="flex items-start gap-4 glass-card p-5 rounded-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-slate-400 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                    <p class="text-slate-600 text-lg">אם את מחפשת הרצאה השראתית בלי תרגול — זה לא זה.</p>
+                <div class="flex items-start gap-3 md:gap-4 glass-card p-4 md:p-5 rounded-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 md:w-6 md:h-6 text-slate-400 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    <p class="text-slate-600 text-base md:text-lg">אם את מחפשת הרצאה השראתית בלי תרגול — זה לא זה.</p>
                 </div>
                 
-                <div class="flex items-start gap-4 bg-pink-50 p-5 rounded-2xl border border-pink-200 mt-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-pink-600 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    <p class="text-pink-900 font-bold text-lg">אבל אם את רוצה להבין סוף סוף איך להשתמש ב-AI בחיים האמיתיים — זה בדיוק בשבילך.</p>
+                <div class="flex items-start gap-3 md:gap-4 bg-pink-50 p-4 md:p-5 rounded-2xl border border-pink-200 mt-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 md:w-6 md:h-6 text-pink-600 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <p class="text-pink-900 font-bold text-base md:text-lg">אבל אם את רוצה להבין סוף סוף איך להשתמש ב-AI בחיים האמיתיים — זה בדיוק בשבילך.</p>
                 </div>
             </div>
         </div>
@@ -545,7 +555,7 @@
 
     <!-- 11. FAQ -->
     <section class="py-16 md:py-24 px-6 max-w-3xl mx-auto z-10 relative reveal-on-scroll">
-        <h2 class="text-3xl md:text-4xl font-black mb-10 text-center text-slate-900">שאלות נפוצות</h2>
+        <h2 class="text-3xl md:text-4xl font-black mb-8 md:mb-10 text-center text-slate-900">שאלות נפוצות</h2>
         <div class="space-y-3 md:space-y-4">
             
             <div class="glass-card rounded-2xl overflow-hidden faq-wrapper">
@@ -641,32 +651,31 @@
         </div>
     </section>
 
-    <!-- 12. FINAL CTA -->
-    <section id="register" class="py-20 md:py-32 px-4 md:px-6 z-10 relative">
+    <!-- 12. FINAL CTA (Also points to Payment) -->
+    <section class="py-16 md:py-24 px-4 md:px-6 z-10 relative">
         <div class="max-w-3xl mx-auto glass-card rounded-[2.5rem] p-8 md:p-14 border border-pink-200 shadow-2xl text-center reveal-on-scroll">
             
             <h2 class="text-3xl md:text-5xl font-black mb-6 text-slate-900 leading-tight">
                 בעוד שבועיים את יכולה עדיין להגיד "אני חייבת ללמוד AI מתישהו" — <span class="text-pink-600">או פשוט להתחיל.</span>
             </h2>
             
-            <ul class="flex flex-col md:flex-row flex-wrap justify-center gap-4 md:gap-6 mb-10 text-slate-700 font-medium text-lg">
+            <ul class="flex flex-col md:flex-row flex-wrap justify-center gap-4 md:gap-6 mb-10 text-slate-700 font-medium text-base md:text-lg">
                 <li class="flex items-center justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> שני מפגשי זום פרקטיים</li>
                 <li class="flex items-center justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> שפה פשוטה</li>
                 <li class="flex items-center justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> דוגמאות מהחיים האמיתיים</li>
-                <li class="flex items-center justify-center gap-2 w-full mt-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> כלים שיעזרו לך לעבוד, ליצור, ללמוד ולחשוב מהר יותר</li>
+                <li class="flex items-center justify-center gap-2 w-full mt-1 md:mt-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> כלים שיעזרו לך לעבוד, ליצור, ללמוד ולחשוב מהר יותר</li>
             </ul>
 
-            <p class="text-xl font-bold text-slate-900 mb-8">
+            <p class="text-lg md:text-xl font-bold text-slate-900 mb-8">
                 והכול במודל שלמי כפי יכולתך.
             </p>
 
-            <!-- TODO: ADD YOUR PAYMENT LINK IN THE href BELOW -->
-            <a href="#" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center justify-center gap-3 text-white font-black text-2xl py-6 px-12 rounded-2xl shadow-xl w-full md:w-auto mb-4">
+            <a href="https://secure.cardcom.solutions/EA/EA5/HISNzM139kaCJLT3jGj6kg/PaymentSP" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center justify-center gap-3 text-white font-black text-xl md:text-2xl py-5 px-8 md:py-6 md:px-12 rounded-2xl shadow-xl w-full md:w-auto mb-4">
                 אני נכנסת לסדנה
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 md:w-7 md:h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
             </a>
 
-            <p class="text-slate-500 text-sm font-light flex items-center justify-center gap-2">
+            <p class="text-slate-500 text-xs md:text-sm font-light flex items-center justify-center gap-2 mt-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
                 המעבר הוא לעמוד תשלום מאובטח שבו תוכלי לבחור את הסכום שמתאים לך.
             </p>
@@ -686,7 +695,7 @@
 
     <!-- STICKY MOBILE CTA -->
     <div id="mobileStickyCta" class="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-white/95 backdrop-blur-md border-t border-slate-200 z-50 transform translate-y-full transition-transform duration-300">
-        <a href="#register" class="btn-primary flex flex-col items-center justify-center text-white rounded-xl py-3 w-full shadow-lg">
+        <a href="#pricing" class="btn-primary flex flex-col items-center justify-center text-white rounded-xl py-3 w-full shadow-lg">
             <span class="font-black text-lg">אני רוצה להצטרף</span>
             <span class="text-xs font-medium opacity-90">שלמי כפי יכולתך</span>
         </a>
